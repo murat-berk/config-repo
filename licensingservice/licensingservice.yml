@@ -10,6 +10,7 @@ spring.datasource.testWhileIdle: "true"
 spring.datasource.validationQuery: "SELECT 1"
 spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialect"
 security.oauth2.resource.filter-order: 3
+security.oauth2.client.grant-type = "client_credentials"
 redis.server: "redis"
 redis.port: "6379"
 signing.key: "345345fsdfsf5345"
