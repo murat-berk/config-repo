@@ -3,6 +3,7 @@ zuul.prefix:  /api
 zuul.routes.licensingservice: /licensing/**
 zuul.routes.organizationservice: /organization/**
 zuul.routes.authenticationservice: /auth/**
+zuul.routes.shapiservice: /shapi/**
 #zuul.routes.licensestatic.path: /licensestatic/**
 #zuul.routes.licensestatic.url:  http://licenseservice-static:8081
 #zuul.routes.licensestatic.serviceId: licensestatic
